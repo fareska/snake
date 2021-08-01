@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+<body>
+    <div id="landing">
+        <div id="header">
+            <h5>Instructions</h5>
+        </div>
+            <div id="main" >
+
+                <ol>
+                    <li>Read the instructions.</li>
+                    <li>Input your name.</li>
+                    <li>Click play button.</li>
+                </ol>
+                
+                <h5>If you want to rewind:</h5>
+                <ol>
+                    <li>Click rewind button.</li>
+                    <li>Select how many second you want to rewind by slide the range slider.</li>
+                    <li>Click rewind to set the rewind.</li>
+                    <li>Also you can click cancel to cancel the rewind.</li>
+                </ol>
+                
+                <div id="userInput" >
+                    <label for="userName"></label>
+                    <input type="text" name="userName" id="userName">
+                    
+                    <button id="startGame" >Start Game</button>
+                </div>
+        </div>
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="logic.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

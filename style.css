@@ -1,0 +1,70 @@
+#myCanvas {
+    /* margin-top: 30px; */
+    border:3px solid red;
+    background-color: white;
+}
+
+body {
+    background-color: rgb(30,39,46);
+}
+
+#header{
+    background-color: rgb(177,180,182);
+}
+
+
+#landing {
+    border-radius: 25px;
+    position: absolute;
+    background-color: rgb(143,147,151) ;
+    top: 30%;
+    left: 35%;
+}
+
+#userInput {
+    text-align: center;  
+    padding-bottom: 20px;  
+}
+
+#userName{
+    display: inline;
+}
+
+button {
+    background-color: rgb(33,123,222);
+}
+
+img {
+    width:50px;
+    height:50px;
+}
+
+#gameContainer {
+    color:white;
+    text-align: center;
+    /* margin-top: 30px; */
+}
+h5 {
+    display: inline;
+    font-size: 30px;
+}
+
+img, h3 {
+    display: inline;
+}
+
+#time {
+    position: absolute;
+    right: 30px;
+    font-size: 30px;
+}
+
+#score {
+    position: absolute;
+    left: 120px;
+}
+
+#scoreTitle {
+    position: absolute;
+    left: 30px;
+}
